@@ -7,4 +7,4 @@ const nav_locators = {
     Forums_ID : "blz-nav-di-forums",
     };
 
-module.exports = {nav_locators}
+export default {nav_locators}

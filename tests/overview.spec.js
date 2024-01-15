@@ -1,7 +1,7 @@
 // @ts-check
 const { url } = require( 'inspector' );
 const { test, expect } = require('../utils/url_nav_fixture.js');
-const { nav_locators }= require('../utils/nav_locators.js');
+const { nav_locators }= require('../utils/nav_locators.js').default;
 const { overview_locators } = require('../utils/overview_locators.js').default;
 
 test('Overview', async ({URL, page}) => {
