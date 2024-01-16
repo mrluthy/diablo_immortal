@@ -1,11 +1,15 @@
 {
   "dependencies": {
     "node.js": "^0.0.1-security",
-    "playwright": "^1.40.1"
+    "playwright": "^1.41.0",
+    "playwright-extra": "^4.3.6"
   },
   "devDependencies": {
     "@playwright/test": "^1.40.1",
     "@types/node": "^20.10.6"
   },
+  "pkg": {
+    "assets": "node_modules/puppeteer-extra-plugin-stealth/**/*.*"
+  }
   "scripts": {}
 }
